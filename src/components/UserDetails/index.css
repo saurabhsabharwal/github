@@ -1,5 +1,5 @@
 .user-details-container {
-	max-width: 1280px;
+	max-width: 80%;
 	display: flex;
 	margin: 0 auto;
 }
@@ -11,7 +11,7 @@
 
 .user-details-container .user-avatar a,
 .user-details-container .user-avatar img {
-	width: 100%;
+	width: 75%;
 	display: block;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -46,4 +46,35 @@
 .user-details-container .user-avatar .spinner,
 .user-details-container .user-repositories .spinner {
 	text-align: center;
+}
+
+@media (max-width: 992px) {
+	.user-details-container {
+		flex-wrap: wrap;
+	}
+
+	.user-details-container .user-avatar {
+		width: 100%;
+		display: flex;
+	}
+
+	.user-details-container .user-avatar img {
+		width: 120px;
+		height: 120px;
+	}
+
+	.user-details-container .user-avatar .user-names {
+		margin-top: 0;
+		padding-left: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 600px) {
+	.user-details-container .user-avatar img {
+		width: 72px;
+		height: 72px;
+	}
 }

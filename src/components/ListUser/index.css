@@ -44,3 +44,10 @@
 	font-size: 14px;
 	color: #24292e;
 }
+
+@media (max-width: 600px) {
+	.list-user .user-avatar,
+	.list-user .user-avatar a img {
+		width: 50px;
+	}
+}
