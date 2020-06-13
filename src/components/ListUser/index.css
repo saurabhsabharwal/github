@@ -1,0 +1,46 @@
+.list-user {
+	border-top: 1px solid #eaecef;
+	display: flex;
+	padding: 16px 10px;
+}
+
+.list-user .user-avatar {
+	width: 72px;
+}
+
+.list-user .user-avatar a {
+	display: block;
+}
+
+.list-user .user-avatar a img {
+	width: 72px;
+	height: auto;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.list-user .user-info {
+	padding: 16px;
+}
+
+.list-user .user-info a {
+	display: block;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 16px;
+	color: #0366d6;
+	text-decoration: none;
+}
+
+.list-user .user-info span {
+	display: block;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #24292e;
+}

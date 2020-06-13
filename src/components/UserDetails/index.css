@@ -1,0 +1,49 @@
+.user-details-container {
+	max-width: 1280px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.user-details-container .user-avatar {
+	width: 25%;
+	padding-right: 40px;
+}
+
+.user-details-container .user-avatar a,
+.user-details-container .user-avatar img {
+	width: 100%;
+	display: block;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.user-details-container .user-avatar .user-names {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1;
+}
+
+.user-details-container .user-avatar .user-names .user-name {
+	font-size: 26px;
+	line-height: 30px;
+	display: block;
+}
+
+.user-details-container .user-avatar .user-names .user-username {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	color: #666;
+	display: block;
+}
+
+.user-details-container .user-repositories {
+	width: 100%;
+}
+
+.user-details-container .user-avatar .spinner,
+.user-details-container .user-repositories .spinner {
+	text-align: center;
+}
